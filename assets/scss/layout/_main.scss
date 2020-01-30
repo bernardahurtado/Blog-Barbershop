@@ -1,0 +1,50 @@
+//Main Layout
+      
+.section__description {
+    position: relative;
+    
+
+
+    .img__description {
+        width: 100%;
+      
+        z-index: -1; 
+    }
+  
+    .h1__description { 
+        position: absolute; 
+        text-align: center;              
+        z-index: 1;    
+        color: $white;
+        top: 40%; 
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
+
+.container-fluid {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h3 {
+    color: $eerie-black;
+}
+
+h4 {
+    color: $rudy-pink;
+}
+
+.sec__autor-h3 {
+    text-align: center;
+    margin-top: 20%;
+    color: $eerie-black;
+}
+
+.sec__autor-p {
+    text-align: left;
+    margin-top: 20%;
+}
+

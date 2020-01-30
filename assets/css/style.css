@@ -9875,6 +9875,11 @@ h3 {
     border-color: #dee2e6;
   }
 }
+/* Reset*/
+body {
+  margin: 0;
+}
+
 /* Base Typography*/
 h1 {
   font-family: "Playfair Display", serif;
@@ -9906,12 +9911,65 @@ p {
   font-size: 14px;
 }
 
+/* Base Styles*/
+.nav-color {
+  background-color: #121619;
+}
+
 .logo {
   width: 120px;
 }
 
+.footer {
+  background-color: #121619;
+  text-align: center;
+}
+
+.section__description {
+  position: relative;
+}
+.section__description .img__description {
+  width: 100%;
+  z-index: -1;
+}
+.section__description .h1__description {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  color: #FFF;
+  top: 40%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h3 {
+  color: #121619;
+}
+
+h4 {
+  color: #D76C69;
+}
+
+.sec__autor-h3 {
+  text-align: center;
+  margin-top: 20%;
+  color: #121619;
+}
+
+.sec__autor-p {
+  text-align: left;
+  margin-top: 20%;
+}
+
 .button {
-  border-radius: 3px;
+  border-radius: 20px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #FFF;

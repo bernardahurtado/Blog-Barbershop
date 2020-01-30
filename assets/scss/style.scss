@@ -1,11 +1,11 @@
 // style.scss # Manifest File
 
-// abstracts
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
-
 // vendors
+@import 'vendors/boostrap_v4.1/bootstrap.scss';
 
+// abstracts
+@import 'abstract/variables';
+@import 'abstract/mixins';
 
 // base
 @import 'base/reset';
@@ -13,8 +13,7 @@
 @import 'base/base';
 
 // layout
-@import 'layout/navbar';
-@import 'layout/grid';
+@import 'layout/header';
 @import 'layout/footer';
 
 // components

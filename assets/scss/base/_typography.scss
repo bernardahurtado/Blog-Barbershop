@@ -1,0 +1,31 @@
+/* Base Typography*/
+
+h1 {
+    font-family: $playfair;
+    font-weight: $black-italic;
+    font-size: $xx-large;
+}
+
+h3 {
+    font-family: $playfair;
+    font-weight: $regular;
+    font-size: $x-large;
+}
+
+h4 {
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: $large;
+}
+
+h5 {
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: $medium;
+}
+
+p {
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: $small;
+}

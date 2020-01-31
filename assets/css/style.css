@@ -9885,12 +9885,14 @@ h1 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
   font-size: 70px;
+  font-style: italic;
 }
 
 h3 {
   font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 30px;
+  font-style: italic;
 }
 
 h4 {
@@ -9923,6 +9925,11 @@ p {
 .footer {
   background-color: #121619;
   text-align: center;
+  height: 12.5rem;
+}
+
+.logo__footer {
+  margin-top: 4.375rem;
 }
 
 .section__description {
@@ -9945,8 +9952,8 @@ p {
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   padding-top: 5%;
   padding-bottom: 5%;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 h3 {
@@ -9957,15 +9964,26 @@ h4 {
   color: #D76C69;
 }
 
+.sec-autor {
+  margin-bottom: 2.5rem;
+}
+
+.col__sec-autor {
+  text-align: left;
+  margin-top: 9%;
+}
+
 .sec__autor-h3 {
-  text-align: center;
-  margin-top: 20%;
   color: #121619;
 }
 
-.sec__autor-p {
-  text-align: left;
-  margin-top: 20%;
+.pag__pagination {
+  background-color: #E8E8E8;
+  height: 9rem;
+}
+
+nav__pagination ul, li {
+  padding-top: 4%;
 }
 
 .button {

@@ -1,4 +1,5 @@
 //Header Layout 
+
 .nav-color {
  background-color: $eerie-black; 
 }
@@ -7,3 +8,17 @@
     width: 120px;
     }
 
+.nav__item-c {
+    
+    a:hover {
+        color: $rudy-pink !important;
+      }
+}
+
+
+@include media-breakpoint-only(xs) {
+
+   .logo {
+       width: 100px;
+   }    
+}

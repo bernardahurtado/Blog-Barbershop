@@ -10041,11 +10041,6 @@ p {
     line-height: 55px;
     font-size: 34px;
   }
-  .section__description .i__description {
-    font-size: 3rem;
-    margin-left: 45%;
-    top: 85%;
-  }
 
   .article {
     padding-left: 35px;
@@ -10091,22 +10086,17 @@ p {
 
 .nav__pagination ul, li {
   padding-top: 4%;
-  color: #121619;
 }
 
 .page-link {
-  color: #121619;
-}
-
-.page-link:hover {
-  background-color: #6c6e70;
-  color: #FFF;
+  background-color: red;
 }
 
 .pag__pagination .page-item:first-child a.page-link {
   margin-left: 0;
   border-top-left-radius: 1.25rem;
   border-bottom-left-radius: 1.25rem;
+  border-color: red;
 }
 
 .pag__pagination .page-item:last-child a.page-link {
@@ -10125,4 +10115,4 @@ p {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=sty%C3%83le.css.map */
